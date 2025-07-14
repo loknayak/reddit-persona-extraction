@@ -16,6 +16,15 @@ Due to Reddit’s scraping restrictions (403/401 errors), real-time data scrapin
 
 ---
 
+## 💡 Notes
+
+**- Reddit blocked scraping/API access during development
+- OpenAI made free API keys unavailable to deploy
+- Project adapted to showcase prompt engineering, LLM use, and fallback logic
+- This structure can be reconnected to PRAW once Reddit re-allows public scraping**
+
+---
+
 ## ✅ Features
 
 - 🧠 **User Persona Generation** using GPT-style prompts
@@ -52,14 +61,6 @@ Due to Reddit’s scraping restrictions (403/401 errors), real-time data scrapin
 3. Use the generated GPT prompt (or replace with your own)
 4. Paste into [chat.openai.com](https://chat.openai.com) to generate the persona
 5. Save the output in `.txt` via the notebook
-
----
-
-## 💡 Notes
-
-- Reddit blocked scraping/API access during development
-- Project adapted to showcase prompt engineering, LLM use, and fallback logic
-- This structure can be reconnected to PRAW once Reddit re-allows public scraping
 
 ---
 
